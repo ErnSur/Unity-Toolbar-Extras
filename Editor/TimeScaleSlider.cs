@@ -1,4 +1,4 @@
-namespace PlayModePlus.Editor
+namespace QuickEye.Editor
 {
     using UnityEditor.Toolbars;
     using UnityEngine;

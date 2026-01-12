@@ -1,4 +1,16 @@
 {
     "name": "QuickEye.ToolbarExtras",
-    "includedPlatforms": ["Editor"]
+    "rootNamespace": "QuickEye.ToolbarExtras",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
