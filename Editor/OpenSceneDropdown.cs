@@ -1,10 +1,10 @@
-﻿namespace QuickEye.Editor
+﻿namespace QuickEye.ToolbarExtras
 {
     using System.Linq;
     using UnityEditor;
     using UnityEditor.SceneManagement;
-    using UnityEngine;
     using UnityEditor.Toolbars;
+    using UnityEngine;
     using UnityEngine.SceneManagement;
 
     public class OpenSceneDropdown

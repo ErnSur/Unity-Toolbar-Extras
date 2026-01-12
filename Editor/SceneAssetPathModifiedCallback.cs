@@ -1,4 +1,4 @@
-namespace QuickEye.Editor
+namespace QuickEye.ToolbarExtras
 {
     using System.Linq;
     using UnityEditor;
