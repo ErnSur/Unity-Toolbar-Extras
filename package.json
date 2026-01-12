@@ -1,0 +1,14 @@
+{
+  "name": "com.quickeye.toolbar-extras",
+  "version": "0.1.0",
+  "description": "Collection of custom Unity Main Toolbar Elements.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnSur/Unity-Toolbar-Extras.git"
+  },
+  "license": "MIT",
+  "author":{
+    "name": "Ernest Suryś",
+    "url": "https://github.com/ErnSur/"
+  }
+}
