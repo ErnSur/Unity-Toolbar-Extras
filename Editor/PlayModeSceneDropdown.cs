@@ -15,7 +15,8 @@
         private static readonly PlayModeSceneDropdown Instance = new();
 
 
-        [MainToolbarElement(MainToolbarElementPath, defaultDockPosition = MainToolbarDockPosition.Middle, defaultDockIndex = 3)]
+        [MainToolbarElement(MainToolbarElementPath, defaultDockPosition = MainToolbarDockPosition.Middle,
+            defaultDockIndex = 3)]
         public static MainToolbarElement CreateToolbarDropdown()
         {
             var icon = EditorGUIUtility.IconContent("UnityLogo").image as Texture2D;
@@ -75,7 +76,7 @@
 
         private void AddSceneMenuItems(GenericMenu menu)
         {
-            var scenePaths = AssetDatabase.FindAssets("t:SceneAsset")
+            var scenePaths = AssetDatabase.FindAssets("t:SceneAsset", new[] { "Assets" })
                 .Select(AssetDatabase.GUIDToAssetPath).ToArray();
 
             // scenes in the "Scenes" folder should always appear at the top

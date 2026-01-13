@@ -27,7 +27,7 @@
         {
             var menu = new GenericMenu();
 
-            menu.AddItem(new GUIContent("Create Scene..."), false, CreateScene);
+            menu.AddItem(new GUIContent("New Scene..."), false, CreateScene);
             menu.AddSeparator("");
             AddSceneMenuItems(menu);
 
@@ -38,7 +38,7 @@
 
         private static void AddSceneMenuItems(GenericMenu menu)
         {
-            var scenePaths = AssetDatabase.FindAssets("t:SceneAsset")
+            var scenePaths = AssetDatabase.FindAssets("t:SceneAsset",new[]{"Assets"})
                 .Select(AssetDatabase.GUIDToAssetPath).ToArray();
 
             // scenes in the "Scenes" folder should always appear at the top
