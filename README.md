@@ -25,3 +25,12 @@ In both Open Scene and Play-Mode Start Scene dropdowns the scene list behaves in
 
 Simple slider that controls the time scale of the game.
 Credits to [cookie1170](https://github.com/cookie1170/cookie-utils/)
+
+
+## How To Use
+
+1. Add the package to your project using [package manager](https://docs.unity3d.com/Manual/upm-ui.html).
+
+2. Use the top left toolbar button to enable/disable the toolbar elements.
+
+![](~Documentation/howto.png)
