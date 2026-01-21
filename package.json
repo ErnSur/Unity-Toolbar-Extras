@@ -1,5 +1,6 @@
 {
   "name": "com.quickeye.toolbar-extras",
+  "displayName": "Toolbar Extras",
   "version": "0.1.0",
   "description": "Collection of custom Unity Main Toolbar Elements.",
   "repository": {
