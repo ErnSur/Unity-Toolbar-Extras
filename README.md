@@ -1,7 +1,7 @@
 # Unity-Toolbar-Extras
 Collection of custom Unity [Main Toolbar Elements](https://docs.unity3d.com/ScriptReference/Toolbars.MainToolbarElementAttribute.html).
 
-![](~Documentation/toolbar.png)
+![](Documentation~/toolbar.png)
 
 ## Assembly Reload Lock
 
@@ -33,4 +33,4 @@ Credits to [cookie1170](https://github.com/cookie1170/cookie-utils/)
 
 2. Use the top left toolbar button to enable/disable the toolbar elements.
 
-![](~Documentation/howto.png)
+![](Documentation~/howto.png)
